@@ -31,7 +31,7 @@ export async function POST(req: Request) {
       // model: 'claude-3-haiku-20240307',
       // model: 'claude-3-opus-20240229',
       messages: userMessages,
-      max_tokens: 4000,
+      max_tokens: 2000,
       temperature: 0.6,
       system: systemMessage?.content,
     });
