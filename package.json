@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.20.1",
     "@deepgram/sdk": "^3.2.0-alpha.1",
     "@fullstory/browser": "^2.0.3",
     "@next/third-parties": "^14.1.0",
@@ -36,6 +37,7 @@
   "devDependencies": {
     "@commitlint/cli": "^19.1.0",
     "@commitlint/config-conventional": "^19.1.0",
+    "@next/swc-win32-x64-msvc": "^14.1.4",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@types/node": "^20",
